@@ -1,0 +1,57 @@
+header {
+  color: white;
+  background-color: rgb(127, 154, 161);
+  padding: 40px;
+  text-align: center;
+}
+
+.card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.row {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.card {
+  margin-bottom: 36px;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+footer {
+  margin-bottom: 36px;
+}
+
+@media screen and (max-width: 767px) {
+  .row {
+    display: block;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+
+  .card-body {
+    font-size: 14px;
+  }
+
+  .card img {
+    max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+  .row {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+}
